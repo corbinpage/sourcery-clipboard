@@ -11,7 +11,7 @@ function present (allClips, options = {}) {
       const isHexColor = clip.raw.match(/^#([0-9a-f]{3}){1,2}$/i)
       const response = {
         title: clip.raw,
-        subtitle: `${ago(new Date(clip.createdAt))}, ${clip.raw.length} characters`,
+        subtitle: `${ago(new Date(clip.createdAt))}`,
         value: clip._id,
         id: clip._id,
         preview: `
