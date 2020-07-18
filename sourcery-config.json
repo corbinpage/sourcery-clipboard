@@ -1,7 +1,7 @@
 {
   "name": "Clipboard",
   "version": "1.0.0",
-  "description": "Clipboard manager for zazu.",
+  "description": "Clipboard manager for sourcery.",
   "icon": "assets/clipboard.png",
   "stylesheet": "css/preview.css",
   "blocks": {
@@ -12,7 +12,7 @@
         "script": "src/monitor.js"
       },
       {
-        "id": "ClipboardKey",
+        "id": "ClipbFoardKey",
         "name": "ClipboardKey",
         "type": "Hotkey",
         "hotkey": "alt+shift+v",
